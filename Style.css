@@ -1,0 +1,47 @@
+body{
+  position: relative;
+  display: block;
+
+  background-color: white;
+  margin: 0;
+  padding:0;
+}
+header{
+  display: flex;
+  height: 50px;
+  background-color: cadetblue
+}
+
+
+header div{
+	flex-grow:1;
+
+}
+
+img#logo{
+	height:32px;
+}
+
+ul#menu{
+	padding:0;
+	margin:0;
+}
+ul#menu li{
+	display:inline;
+}
+
+li[plop="ok"]{
+	font-style:italic;
+}
+a[href="#"]{
+	color:green;
+}
+a:visited{
+	color:green;
+	text-decoration:none;
+}
+@media screen and (min-width:200px) and (max-width:640px){
+header {
+	display:none;
+}
+}
